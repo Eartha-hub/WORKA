@@ -33,3 +33,80 @@ int main()
 		
 	}
 }
+#include  <iostream>
+
+using namespace std;
+
+int main() 
+{
+	float water;
+	cout<<"Enter water : ";
+	cin>>water;
+	if(water<500){
+		water=water*6.75;
+		cout<<"water : "<<water;
+	}else if(water>100&&water<499){
+		water=water*5.25;
+		cout<<"water : "<<water;
+	}else if(water>500&&water<999){
+		water=water*4.75;
+		cout<<"water : "<<water;
+	}else if(water>=1000){
+		water=water*3.25;
+		cout<<"water : "<<water;
+	}
+}
+#include  <iostream>
+
+using namespace std;
+
+int main() 
+{
+	int num;
+	cout<<"Enter water";
+	cin>>num;
+	if(num<500){
+		cout<<"general user";
+	}else if(num>500&&num<2999) {
+		cout<<"small business";
+	}else if (num>3000){
+		cout<<"large business";
+	}
+}
+#include  <iostream>
+
+using namespace std;
+
+int main() 
+{
+float num;
+cout<<"Enter number : ";
+cin>>num;
+if(num<12){
+	cout<<"kid";
+}
+else if (num>13&&num<19){
+	cout<<"young";
+}else if (num>20&&num<39){
+	cout<<"Early adult";
+}else if (num>40&&num<59){
+	cout<<"Late adult";
+}else if ( num>60){
+cout<<"Late adult";
+}
+ }
+ 
+ #include  <iostream>
+
+using namespace std;
+
+int main() 
+{	
+	int computer;
+	
+		while(computer<=5){
+		computer=computer+1;
+		cout<<"computer\n";
+	}
+}
+	
